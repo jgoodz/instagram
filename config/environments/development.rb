@@ -54,4 +54,8 @@ Rails.application.configure do
 
   config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
   
+  #Paperclip.options[:command_path] = 'C:\PPROGRA~2\GnuWin32\bin;C:\IMAGEM~1'
+  Paperclip.options[:command_path] = 'C:\Program Files (x86)\GnuWin32\bin; C:\ImageMagick'
+  Paperclip.options[:swallow_stderr] = false
+
 end

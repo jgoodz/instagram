@@ -43,6 +43,12 @@ gem 'railties'#, '>= 5.0'
 #gem 'devise' #, '~> 3.4.1'
 gem 'devise', git: 'https://github.com/gogovan/devise.git', branch: 'rails-5.1'
 gem 'erubis'
+#gem 'paperclip', '~> 4.2.0'
+
+#gem 'paperclip', '~> 4.3', '>= 4.3.6'
+gem "paperclip", "~> 5.0.0"
+
+gem 'cocaine', '~> 0.5.8'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
